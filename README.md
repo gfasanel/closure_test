@@ -1,7 +1,10 @@
 # closure_test
 
+./script/justOnce/closure_test.sh 2nd (1nh)
 
-./script/justOnce/closure_test_fitter.sh
+Per ogni punto di scale/smearing vengono sottomessi 10 job, organizzati in cartelle da 1 a 10 in test/dato/fitres/toys/scaleStep0/
+
+./script/justOnce/closure_test_fitter.sh > debug_fit.txt
 
 Fa un root con tutti i profili
 
