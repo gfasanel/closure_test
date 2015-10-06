@@ -9,7 +9,9 @@ Per ogni punto di scale/smearing vengono sottomessi 10 job, organizzati in carte
 
 ./script/justOnce/closure_test_fitter.sh > debug_fit.txt
 
-Fa un root con tutti i profili
+fit_copy.sh
+
+L'algoritmo di fit fa un root con tutti i profili
 
 root -l -b fitProfiles.C
 
