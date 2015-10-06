@@ -1,5 +1,8 @@
 # closure_test
 
+da /afs/cern.ch/user/g/gfasanel/new_version_ECALELF/CMSSW_7_5_0_pre4/src/Calibration/ZFitter
+
+
 ./script/justOnce/closure_test.sh 2nd (1nh)
 
 Per ogni punto di scale/smearing vengono sottomessi 10 job, organizzati in cartelle da 1 a 10 in test/dato/fitres/toys/scaleStep0/
