@@ -17,6 +17,10 @@ root -l -b fitProfiles.C
 
 fitProfiles chiama macro/macro_fit.C::FitProfile2 che chiama sempre dentro macro_fit.C IterMinimumFit
 
-in tmp/g_toBeFitted c'e' il grafico
+IterMinimumFit e' la macro che fa tutto il lavoro
 
-e anche g_fitted
+Poi il fit viene passato alla macro Plot che fa i disegni
+
+in tmp/g_toBeFitted ci sono i grafici prima di essere fittatii
+
+e anche g_fitted (dopo il fit)
